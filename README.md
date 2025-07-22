@@ -23,7 +23,7 @@ This project loads and processes all NYC 311 service request records from 1/1/20
 
 ## Other Questions This Data Could Answer 
 1. What is the average time it takes to complete a 311 service request?
-2.  Which types of complaints take the longest to resolve?
+2.  Which types of 311 service complaints take the longest to resolve?
 3. What percentage of 311 service requests remain unresolved or have no recorded close date?
 4. What percentage of 311 service requests are likely duplicates or overlapping (i.e., similar complaints made in the same area within a short timeframe)?
 
