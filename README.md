@@ -23,9 +23,9 @@ This project loads and processes all NYC 311 service request records from 1/1/20
 
 ## Other Questions This Data Could Answer 
 1. What is the average time it takes to complete a 311 service request?
-2. What percentage of 311 service requests are never resolved / closed?
-3. What percentage of 311 service requests are overlapping (i.e. same request made on multiple occasions)? (This is possible to approximate by filtering for similar complaint_types / descriptors in a similar location and timeframe, and by seeing when the request is resolved / closed)
-
+2.  Which types of complaints take the longest to resolve?
+3. What percentage of 311 service requests remain unresolved or have no recorded close date?
+4. What percentage of 311 service requests are likely duplicates or overlapping (i.e., similar complaints made in the same area within a short timeframe)?
 
 ## Sources
 Given my limited Python experience, I relied heavily on the guides below (amongst other sources) to learn how to ingest, clean and wrangle the data:
