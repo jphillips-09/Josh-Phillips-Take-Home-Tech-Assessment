@@ -1,4 +1,4 @@
-# EDA-Project
+# Small Data Pipeline and EDA-Project
 NYC 311 Service Requests from NYC Open Data website
 
 ## Project Overview
