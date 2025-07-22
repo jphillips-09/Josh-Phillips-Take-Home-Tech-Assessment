@@ -21,7 +21,7 @@ This project loads and processes all NYC 311 service request records from 1/1/20
 3. Which borough has historically had the most 311 service requests? Which ZIP Code?
 4. What is the most common 311 service complaint type?
 
-## Other Questions This Data Could Answer: 
+## Other Questions This Data Could Answer 
 1. What is the average time it takes to complete a 311 service request?
 2. What percentage of 311 service requests are never resolved / closed?
 3. What percentage of 311 service requests are overlapping (i.e. same request made on multiple occasions)? (This is possible to approximate by filtering for similar complaint_types / descriptors in a similar location and timeframe, and by seeing when the request is resolved / closed)
