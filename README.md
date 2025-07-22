@@ -6,7 +6,6 @@ This project loads and processes all NYC 311 service request records from 1/1/20
 
 * The Data QA / Ingestion Notebook can be found [here](notebooks/https://github.com/jphillips-09/Josh-Phillips-Take-Home-Tech-Assessment/blob/main/01_data_ingestion.ipynb)
 * The EDA Notebook can he found here (not yet available)
-* The requirements of this project can be found here [here](
 
 ## Data Methodology: 
 
