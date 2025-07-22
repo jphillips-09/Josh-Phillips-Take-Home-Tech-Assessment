@@ -9,7 +9,7 @@ This project loads and processes all NYC 311 service request records from 1/1/20
 
 ## Data Methodology: 
 
-* Data Description: This dataset represents all NYC 311 Service Request from 1/1/2010 onwards, provided by NYC 311. Only service requests that can be directed to specific agencies are included.
+* Data Description: This dataset represents all NYC 311 Service Requests from 1/1/2010 onwards, provided by NYC 311. Only service requests that can be directed to specific agencies are included.
   
 * Publishing Frequency: The dataset is refreshed and updated daily. Note that values for many fields may change over time. 
   
