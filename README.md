@@ -4,6 +4,9 @@ NYC 311 Service Requests from NYC Open Data website
 ## Project Overview
 This project loads and processes all NYC 311 service request records from 1/1/2010 - 7/18/2025 using the NYC OpenData API (found [here)](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data), and aims to analyze / identify key trends of the dataset. 
 
+* The Data QA / Ingestion Notebook can be found [here](notebooks/https://github.com/jphillips-09/Josh-Phillips-Take-Home-Tech-Assessment/blob/main/01_data_ingestion.ipynb)
+* The EDA Notebook can he found here (not yet available)
+
 ## Data Methodology: 
 
 * Data Description: This dataset represents all NYC 311 Service Request from 1/1/2010 onwards, provided by NYC 311. Only service requests that can be directed to specific agencies are included.
