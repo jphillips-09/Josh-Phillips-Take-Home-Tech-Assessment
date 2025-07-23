@@ -1,8 +1,7 @@
-# Small Data Pipeline and EDA Project
-NYC 311 Service Requests from NYC Open Data website
+# NYC 311 Service Requests - Small Data Pipeline and EDA Project
 
 ## Project Overview
-This project loads and processes all NYC 311 service request records from 1/1/2010 - 7/18/2025 using the NYC OpenData API (found [here)](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data), and aims to analyze / identify key trends of the dataset. 
+This project attempts to ingest all NYC 311 service request records from 1/1/2010 - 7/18/2025 using the NYC OpenData API (found [here)](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data). An exploratory data analysis is then performed to extract key insights / trends of the dataaset.
 
 * V1 of The Data QA / Ingestion Notebook can be found [here](01_data_ingestion.ipynb). This was my initial attempt to download all rows of the dataset, which did not run correctly due to API/data volume constraints.
 * V2 of The Data QA / Ingestion Notebook can be found [here](01_data_ingestion_v2.ipynb). This is my revised notebook that downloads the latest 1,000 rows of the dataset.
@@ -23,13 +22,13 @@ According to the latest 1,000 rows of data, The Bronx has the most 311 Service R
 
 <img width="452" height="429" alt="image" src="https://github.com/user-attachments/assets/4dc74806-7249-45ea-8e06-c03925e65591" />
 
-#### 2. Does 311 request volume correlate with borough population?
+#### 2. Does 311 service request volume correlate with borough population?
 Yes, there appears to be a strong correlation between borough population and the amount of 311 service requests, although the Bronx is an outlier with higher-than-expected volume.
 
 <img width="451" height="358" alt="image" src="https://github.com/user-attachments/assets/02094336-ce36-4f66-9ef9-be8dd83a14a8" />
 
 #### 3. What are the most common 311 service complaint types?
-Noise - Street/Sidewalk and Noise - Residential are the most frequent complaint types.
+Noise (Street/Sidewalk) and Noise (Residential) are the most frequent complaint types.
 
 <img width="452" height="502" alt="image" src="https://github.com/user-attachments/assets/8c35b368-892f-45fd-9f85-e6dde7ac9804" />
 
@@ -39,7 +38,7 @@ Noise - Street/Sidewalk and Noise - Residential are the most frequent complaint 
 #### 3. What is the average time it takes to resolve a 311 service request?
 #### 4. Which types of 311 service complaints take the longest to resolve?
 #### 5. What percentage of 311 service requests remain unresolved or have no recorded close date?
-#### 6. What percentage of 311 service requests are likely duplicates or overlapping (i.e., similar complaints made in the same area within a short timeframe)?
+#### 6. What percentage of 311 service requests are likely duplicates or overlapping (i.e. similar complaints made in the same area within a short timeframe)?
 
 ## Sources
 Given my limited Python experience, I relied heavily on the guides below (amongst other sources) to learn how to ingest, clean and wrangle the data:
